@@ -9,25 +9,20 @@ export default function Button({
   type = 'button',
   ...rest}) {
   
-    // Cek tipe komponen berdasarkan props
     const Component = to ? Link : href ? 'a' : 'button';
 
-    // Assign common props for button, anchor, or link elements
     const commonProps = {
       className, onClick, ...rest
     }
 
-    // cek hanya type untuk button
     if(Component === 'button') {
       commonProps.type = type
     }
 
-    // cek hanya type untuk <a>
     if(Component === 'a') {
       commonProps.href = href
     }
 
-    // cek hanya type untuk link
     if(Component === Link) {
       commonProps.to = to
     }
