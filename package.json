@@ -1,13 +1,16 @@
 {
-  "name": "my-app",
+"name": "my-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://RestiFauziM.github.io/B-RestiFauziMukhliza-ReactJS",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
