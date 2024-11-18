@@ -2,7 +2,7 @@
 "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://RestiFauziM.github.io/B-RestiFauziMukhliza-ReactJS",
+  "homepage": "https://restifauzim.github.io/B-RestiFauziMukhliza-ReactJS",
   "type": "module",
   "scripts": {
     "dev": "vite",
