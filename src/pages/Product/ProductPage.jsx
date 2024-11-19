@@ -48,8 +48,8 @@ export default function ProductPage() {
           <RadioButton
             options={[
               { label: "All", value: "all" },
-              { label: "Paris", value: "paris" },
-              { label: "Pashmina", value: "pashmina" },
+              { label: "Facial Wash Men", value: "facial wash men" },
+              { label: "Facial Wash Women", value: "facial wash women" },
             ]}
             defaultValue="all"
             onChange={handleFilterChange}

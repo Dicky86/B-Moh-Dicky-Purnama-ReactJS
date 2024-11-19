@@ -55,7 +55,7 @@ export default function ProductDetail() {
                 <div>
                   <Button
                     type="button"
-                    className="inline-flex items-center justify-center gap-2 p-4 bg-[#D6C0B3] text-center hover:bg-[#9A7E6F] text-white active:bg-[#9A7E6F]"
+                    className="inline-flex items-center justify-center gap-2 p-4 bg-[#2830c6] text-center hover:bg-[#39a72c] text-white active:bg-[#9A7E6F]"
                   >
                     <FontAwesomeIcon icon={faCartShopping} className="mb-0 text-white" />
                     <span className="text-white">Add to cart</span>

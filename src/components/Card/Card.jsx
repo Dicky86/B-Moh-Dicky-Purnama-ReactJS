@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 export default function Card({product}) {
   return (
-    <Link to={`/products/${product.slug}` ?? ''} className="flex flex-col max-w-[370px] flex-wrap p-[16px] bg-[#2D2424] hover:ring-opacity-40 active:ring-5 active:ring-[#D6C0B3] hover:ring-4 active:ring-2 active:ring-opacity-90" >
-    <div className="flex flex-col max-w-[370px] flex-wrap p-[16px] bg-[#2D2424]" >
+    <Link to={`/products/${product.slug}` ?? ''} className="flex flex-col max-w-[370px] flex-wrap p-[16px] bg-[#000000] hover:ring-opacity-40 active:ring-5 active:ring-[#D6C0B3] hover:ring-4 active:ring-2 active:ring-opacity-90" >
+    <div className="flex flex-col max-w-[370px] flex-wrap p-[16px] bg-[#000000]" >
           <img src={product.imageUrl ?? ''} alt={product.name ?? 'No name'} className="block max-h-[300px] mb-4 object-cover" />
             <div className="flex flex-col gap-2">
                 <h4 className="font-medium text-[20px] text-white">{product.name ?? 'No Name'}</h4>
@@ -20,14 +20,14 @@ export default function Card({product}) {
                   ) : (product.stock <= 25 && product.stock !== 0) ? (
                     <>
                        <p className="text-xl font-semibold text-center text-yellow-500">Almost Sold Out</p>
-                        <Button type="button" className="inline-flex items-center justify-center gap-2 p-4 bg-[#9A7E6F] text-center hover:bg-[#D6C0B3] text-white active:bg-[#D6C0B3]">
+                        <Button type="button" className="inline-flex items-center justify-center gap-2 p-4 bg-[#2830c6] text-center hover:bg-[#39a72c] text-white active:bg-[#D6C0B3]">
                           <FontAwesomeIcon icon={faCartShopping} className="mb-0" />
                           <span>Add to cart</span>
                         </Button>
                     </>
                  
                   ) : (
-                    <Button type="button" className="inline-flex items-center justify-center gap-2 p-4 bg-[#9A7E6F] text-center hover:bg-[#D6C0B3] text-white active:bg-[#D6C0B3]">
+                    <Button type="button" className="inline-flex items-center justify-center gap-2 p-4 bg-[#2830c6] text-center hover:bg-[#39a72c] text-white active:bg-[#D6C0B3]">
                       <FontAwesomeIcon icon={faCartShopping} className="mb-0" />
                       <span>Add to cart</span>
                     </Button>

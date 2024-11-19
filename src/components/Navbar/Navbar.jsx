@@ -11,7 +11,7 @@ export default function Navbar({ onSearch }) {
   };
 
   return (
-    <nav className="grid grid-cols-3 justify-between px-24 py-4 bg-[#9A7E6F] items-center">
+    <nav className="grid grid-cols-3 justify-between px-24 py-4 bg-[#2caeff] items-center">
       <ul>
         <li className="flex items-center justify-center">
           <Link to="/" className="text-[#F2F4FF] hover:text-[#D6C0B3] active:text-[#1d2342]">Home</Link>

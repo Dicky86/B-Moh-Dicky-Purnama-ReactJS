@@ -1,84 +1,64 @@
 export default function getAllProducts() {
   return [
     {
-      id: 'hijab-001',
-      slug: 'paris-premium-hijab',
-      name: 'Paris Premium',
-      category: 'Paris',
-      price: 70_000,
-      stock: 80,
-      imageUrl: '/assets/images/Paris Premium.jpg',
-      description: `A classic hijab made from lightweight and breathable fabric. Perfect for daily wear, offering comfort and versatility in various styles.`
-    },
-    {
-      id: 'hijab-002',
-      slug: 'paris-voal-hijab',
-      name: 'Paris Voal',
-      category: 'Paris',
-      price: 75_000,
-      stock: 40,
-      imageUrl: '/assets/images/Paris Voal.jpg',
-      description: `Elegant and soft, the Paris Voal Hijab provides a premium feel with its breathable material. Ideal for both formal and casual occasions.`
-    },
-    {
-      id: 'hijab-003',
-      slug: 'pashmina-diamond-hijab',
-      name: 'Pashmina Diamond',
-      category: 'Pashmina',
-      price: 95_000,
-      stock: 30,
-      imageUrl: '/assets/images/Pashmina Diamod.jpg',
-      description: `The Pashmina Diamond Hijab features a textured surface that adds a modern look to your outfit. Easy to style and comfortable to wear.`
-    },
-    {
-      id: 'hijab-004',
-      slug: 'pashmina-shimmer-hijab',
-      name: 'Pashmina Shimmer',
-      category: 'Pashmina',
-      price: 85_000,
-      stock: 25,
-      imageUrl: '/assets/images/Pashmina Shimmer.jpg',
-      description: `Add a touch of sparkle to your outfit with the Pashmina Shimmer Hijab. Perfect for special occasions, it offers elegance and style.`
-    },
-    {
-      id: 'hijab-005',
-      slug: 'pashmina-silk-hijab',
-      name: 'Pashmina Silk',
-      category: 'Pashmina',
-      price: 80_000,
-      stock: 15,
-      imageUrl: '/assets/images/Pashmina Silk.jpg',
-      description: `Luxurious and smooth, the Pashmina Silk Hijab provides a premium look and feel. Ideal for formal events or as a gift for loved ones.`
-    },
-    {
-      id: 'hijab-006',
-      slug: 'paris-jadul-hijab',
-      name: 'Paris Jadul',
-      category: 'Paris',
-      price: 80_000,
+      id: 'facial wash-001',
+      slug: 'kahf-facial-wash',
+      name: 'Kahf',
+      category: 'Facial Wash Men',
+      price: 47_000,
       stock: 100,
-      imageUrl: '/assets/images/Paris Jadul.jpg',
-      description: `Timeless and nostalgic, the Paris Jadul Hijab brings back the charm of classic designs with its lightweight and durable material.`
+      imageUrl: '/assets/images/Kahf.jpg',
+      description: `A facial cleanser for men that helps maintain skin cleanliness and freshness. Perfect for daily use to keep the face clean and free from dullness.`
     },
     {
-      id: 'hijab-007',
-      slug: 'paris-scarf-hijab',
-      name: 'Paris Scarf',
-      category: 'Paris',
-      price: 70_000,
+      id: 'facial wash-002',
+      slug: 'mens-biore-facial-wash',
+      name: 'Mens Biore',
+      category: 'Facial Wash Men',
+      price: 35_999,
       stock: 70,
-      imageUrl: '/assets/images/Paris Scarft.jpg',
-      description: `The Paris Scarf Hijab combines simplicity and elegance, making it perfect for both casual and semi-formal occasions.`
+      imageUrl: '/assets/images/Biore.jpg',
+      description: `An effective facial wash for men that removes oil and dirt. Specially formulated for active men to keep their skin looking fresh all day long.`
     },
     {
-      id: 'hijab-008',
-      slug: 'pashmina-voal-hijab',
-      name: 'Pashmina Voal',
-      category: 'Pashmina',
-      price: 90_000,
-      stock: 50,
-      imageUrl: '/assets/images/Pashmina Voal.jpg',
-      description: `The Pashmina Voal Hijab offers a perfect blend of softness and durability. Ideal for all-day comfort and versatile styling.`
+      id: 'facial wash-003',
+      slug: 'garnier-men-facial-wash',
+      name: 'Garnier Men',
+      category: 'Facial Wash Men',
+      price: 39_000,
+      stock: 49,
+      imageUrl: '/assets/images/Garnier.jpg',
+      description: `A facial cleanser that helps control oil and keeps the skin looking fresh. Ideal for men with oily and dull skin problems.`
+    },
+    {
+      id: 'facial wash-004',
+      slug: 'wardah-facial-wash-women',
+      name: 'Wardah',
+      category: 'Facial Wash Women',
+      price: 43_000,
+      stock: 55,
+      imageUrl: '/assets/images/Wardah.jpg',
+      description: `A gentle facial wash for women that cleanses and moisturizes the skin. Leaves a refreshing sensation while helping to brighten the skin naturally.`
+    },
+    {
+      id: 'facial wash-005',
+      slug: 'ponds-facial-wash-women',
+      name: 'Ponds',
+      category: 'Facial Wash Women',
+      price: 27_500,
+      stock: 109,
+      imageUrl: '/assets/images/Ponds.jpg',
+      description: `A facial wash that helps cleanse the skin and make it appear brighter. Suitable for daily use to keep the face fresh and free from impurities.`
+    },
+    {
+      id: 'facial wash-006',
+      slug: 'glow-and-lovely-facial-wash-women',
+      name: 'Glow and Lovely',
+      category: 'Facial Wash Women',
+      price: 29_950,
+      stock: 19,
+      imageUrl: '/assets/images/Glow.jpg',
+      description: `A facial cleanser for women that makes the skin look clean and radiant. Enriched with ingredients that help maintain soft and smooth skin.`
     },
   ]
 }
